@@ -7,10 +7,25 @@ A simple To-Do website designed to help individuals and teams organize, and mana
 
 In the website, there is a simple UI for calendar and two lists.
 
+The goal of this project is to familiarize with HTML, CSS, Javascript, and how working with server (Node js) is like. 
+
+Feel free to explore the code and play with it.
+
 You can:
 - add items
 - delete items
 - cross items out
+
+## If you're interested in trying it out, you will need:
+- [Node js](https://nodejs.org/en/download)
+- [Probably Visual Studio Code or any Code editor](https://code.visualstudio.com)
+
+## To Run
+1. move to the project folder by writing 'cd 'path/to/your/project/folder' (you can get the path by dragging it to the terminal as well)
+2. Through the terminal, install all modules for Node js using 'npm i' or 'npm install'
+3. Type 'nodemon index.js' in the terminal (in case it doesn't work, nodemon is probably missing but you can easily install nodemon as well)
+
+![Screenshot of the terminal to check if it works](/public/images/ss2.png)
 
 ---
 ## References

@@ -14,7 +14,7 @@ You can:
 
 ---
 ## References
-- [Udemy Course Web Development] (https://www.udemy.com/course/the-complete-web-development-bootcamp)
-- [For Calendar] (https://www.codingnepalweb.com/dynamic-calendar-html-css-javascript/)
-- [General Help from ChatGPT] (https://chat.openai.com)
+- [Udemy Course Web Development](https://www.udemy.com/course/the-complete-web-development-bootcamp)
+- [For Calendar](https://www.codingnepalweb.com/dynamic-calendar-html-css-javascript/)
+- [General Help from ChatGPT](https://chat.openai.com)
 

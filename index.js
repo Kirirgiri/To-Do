@@ -55,6 +55,19 @@ app.post("/work", (req, res) => {
   res.redirect("/work");
 });
 
+app.post("/delete",(req,res)=>{
+  const item = req.body.delete;
+  if(req.body.list==="Work List"){
+    let index = workItems.indexOf(item);
+    workItems.splice(index,1);
+    res.redirect("/work");
+  }else{
+    let index = items.indexOf(item);
+    items.splice(index,1);
+    res.redirect("/");
+  }
+});
+
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });

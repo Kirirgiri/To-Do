@@ -1,26 +1,30 @@
 <%- include('partials/header.ejs'); -%>
 
-  <div class="box" id="heading">
-    <h1>
-      <%= listTitle %>
-    </h1>
-  </div>
-  <div class="box">
-    <% for(let item of newListItems){%>
-      <div class="item">
-        <input type="checkbox">
-        <p>
-          <%= item %>
-        </p>
-      </div>
-      <% } %>
-        <form class="item" action="/" method="post">
-          <input type="text" name="newItem" placeholder="New Item" autocomplete="off" />
-          <button type="submit" name="list" value=<%=listTitle %> >+</button>
-        </form>
-  </div>
-  <div class="box">
-    <button type="submit" name="addlist">+</button>
-  </div>
+
+    <div class="box" id="heading">
+      <h1>
+        <%= listTitle %>
+      </h1>
+    </div>
+    <div class="box">
+      <form class="item" action="/" method="post">
+        <input type="text" name="newItem" placeholder="New Item" autocomplete="off" />
+        <button type="submit" name="list" value=<%=listTitle %> >+</button>
+      </form>
+      <% for(let item of newListItems){%>
+        <% var i = 0 %>
+        <div class="item">
+          <input type="checkbox">
+          <p>
+            <%= item %>
+          </p>
+          <form action="/delete" method="post">
+            <input type="hidden" name="list" value="<%= listTitle %>">
+            <button type="submit" name="delete" value=<%= item %>>Delete</button>
+          </form>
+          <% i++; %>
+        </div>
+        <% } %>
+    </div>
 
   <%- include('partials/footer.ejs'); -%>

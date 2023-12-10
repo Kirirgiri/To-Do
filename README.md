@@ -7,7 +7,7 @@ A simple To-Do app designed to help individuals and teams organize, and manage t
 
 In the website, there is a simple UI for calendar and two lists. The data is stored in the app as long as the server is running on your local device.
 
-The goal of this project is to familiarize with HTML, CSS, Javascript, and how working with server (Node js) is like. 
+The goal of this project is to familiarize with HTML, CSS, Javascript, and how working with server (Node js) is like. (I chose to do a simple project like this to learn parts of web development and broaden my skillset)
 
 Feel free to explore the code and play with it.
 

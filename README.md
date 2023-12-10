@@ -1,11 +1,11 @@
-# To-Do Website
+# To-Do App
 ---
 
-A simple To-Do website designed to help individuals and teams organize, and manage tasks and activities.
+A simple To-Do app designed to help individuals and teams organize, and manage tasks and activities.
 
 ![Screenshot of the Website](/public/images/ss1.png)
 
-In the website, there is a simple UI for calendar and two lists.
+In the website, there is a simple UI for calendar and two lists. The data is stored in the app as long as the server is running on your local device.
 
 The goal of this project is to familiarize with HTML, CSS, Javascript, and how working with server (Node js) is like. 
 

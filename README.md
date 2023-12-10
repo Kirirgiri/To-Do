@@ -32,4 +32,9 @@ You can:
 - [Udemy Course Web Development](https://www.udemy.com/course/the-complete-web-development-bootcamp)
 - [For Calendar](https://www.codingnepalweb.com/dynamic-calendar-html-css-javascript/)
 - [General Help from ChatGPT](https://chat.openai.com)
+### Used Libraries:
+- [Bootstrap](https://getbootstrap.com)
+- [jQuery](https://jquery.com/)
+- [body-parser](https://www.npmjs.com/package/body-parser)
+- [EJS](https://ejs.co/)
 
